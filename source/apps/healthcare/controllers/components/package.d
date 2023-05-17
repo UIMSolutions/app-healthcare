@@ -1,1 +1,1 @@
-module apps.healthcare.controllers.components;
+module apps.myname.controllers.components;

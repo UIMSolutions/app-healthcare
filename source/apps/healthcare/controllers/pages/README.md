@@ -1,2 +1,1 @@
-# Package 📦 apps.healthcare.controllers.pages
-
+# Package 📦 apps.myname.controllers.pages

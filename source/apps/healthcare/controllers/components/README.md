@@ -1,2 +1,1 @@
-# Package 📦 apps.healthcare.controllers.components
-
+# Package 📦 apps.myname.controllers.components

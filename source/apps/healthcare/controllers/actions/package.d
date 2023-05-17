@@ -1,1 +1,1 @@
-module apps.healthcare.controllers.actions;
+module apps.myname.controllers.actions;

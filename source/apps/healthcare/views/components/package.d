@@ -1,1 +1,1 @@
-module apps.healthcare.views.components;
+module apps.myname.views.components;

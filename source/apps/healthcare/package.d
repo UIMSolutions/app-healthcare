@@ -20,6 +20,7 @@ public import langs.javascript;
 public {
   import apps.healthcare.controllers;
   import apps.healthcare.helpers;
+  import apps.healthcare.routers;
   import apps.healthcare.tests;
   import apps.healthcare.views;
 }

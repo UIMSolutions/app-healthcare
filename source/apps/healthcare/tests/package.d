@@ -1,1 +1,1 @@
-module apps.healthcare.tests;
+module apps.myname.tests;

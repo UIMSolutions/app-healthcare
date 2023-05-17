@@ -1,6 +1,10 @@
-module apps.healthcare.views;
+module apps.myname.views;
 
-public { // Packages
-  import apps.healthcare.views.actions;
-  import apps.healthcare.views.forms;
+public {
+  import apps.myname.views.components;
+  import apps.myname.views.forms;
+  import apps.myname.views.pages;
 }
+
+public import apps.myname.views.error;
+public import apps.myname.views.index;

@@ -1,2 +1,1 @@
-# Package 📦 apps.healthcare.controllers.actions
-
+# Package 📦 apps.myname.controllers.actions

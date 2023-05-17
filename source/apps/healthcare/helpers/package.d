@@ -1,1 +1,1 @@
-module dbs.healthcare.helpers;
+module apps.myname.helpers;
