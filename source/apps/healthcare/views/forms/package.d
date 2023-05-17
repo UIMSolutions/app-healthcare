@@ -1,7 +1,7 @@
-module apps.myname.views.forms;
+module apps.healthcare.views.forms;
 
 public {
-  import apps.myname.views.forms.headers;
-  import apps.myname.views.forms.bodies;
-  import apps.myname.views.forms.footers;
+  import apps.healthcare.views.forms.headers;
+  import apps.healthcare.views.forms.bodies;
+  import apps.healthcare.views.forms.footers;
 }
