@@ -1,6 +1,6 @@
-module apps.myname.controllers.pages;
+module apps.healthcare.controllers.pages;
 
 public {
-  import apps.myname.controllers.pages.error;
-  import apps.myname.controllers.pages.index;
+  import apps.healthcare.controllers.pages.error;
+  import apps.healthcare.controllers.pages.index;
 }

@@ -1,2 +1,2 @@
-# Package 📦 apps.myname.views.components
+# Package 📦 apps.healthcare.views.components
 
