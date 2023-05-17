@@ -1,2 +1,0 @@
-# Package 📦 apps.healthcare.controllers.components
-
