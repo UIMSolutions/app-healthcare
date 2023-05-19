@@ -30,6 +30,6 @@ static this() {
   healthcareApp = App
     .name("healthcareApp")
     .rootPath("/apps/healthcare")
-    .addRoute(Route("", HTTPMethod.GET, HTHIndexPageController));
+    .addRoute(Route("", HTTPMethod.GET, HTHIndexPageController))
     .addRoute(Route("/", HTTPMethod.GET, HTHIndexPageController));
 }

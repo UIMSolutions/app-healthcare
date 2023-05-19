@@ -3,14 +3,14 @@ module apps.healthcare.controllers.pages.error;
 import apps.healthcare;
 @safe:
 
-class DhealthcareErrorPageController : DAPPPageController {
-  mixin(ControllerThis!("healthcareErrorPageController"));
+class DHTHErrorPageController : DAPPPageController {
+  mixin(ControllerThis!("HTHErrorPageController"));
 
   override void initialize(Json configSettings = Json(null)) {
     super.initialize(configSettings);
 
     this
-      .view(healthcareErrorView(this));
+      .view(HTHErrorView(this));
   }
 }
-mixin(ControllerCalls!("healthcareErrorPageController"));
+mixin(ControllerCalls!("HTHErrorPageController"));
