@@ -25,11 +25,11 @@ public {
   import apps.healthcare.views;
 }
 
-DApp healthcareApp;
 static this() {
-  healthcareApp = App
+  AppRegistry.register("apps.healthcare",  
+    App
     .name("healthcareApp")
     .rootPath("/apps/healthcare")
     .addRoute(Route("", HTTPMethod.GET, HTHIndexPageController))
-    .addRoute(Route("/", HTTPMethod.GET, HTHIndexPageController));
+    .addRoute(Route("/", HTTPMethod.GET, HTHIndexPageController)));
 }
