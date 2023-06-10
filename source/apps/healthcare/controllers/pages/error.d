@@ -3,7 +3,7 @@ module apps.healthcare.controllers.pages.error;
 import apps.healthcare;
 @safe:
 
-class DHTHErrorPageController : DAPPPageController {
+class DHTHErrorPageController : DPageController {
   mixin(ControllerThis!("HTHErrorPageController"));
 
   override void initialize(Json configSettings = Json(null)) {
