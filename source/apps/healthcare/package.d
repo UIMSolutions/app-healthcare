@@ -30,7 +30,7 @@ static this() {
     App
     .name("healthcareApp")
     .rootPath("/apps/healthcare")
-         . mport Translations()
+    .importTranslations()
     .addRoute(Route("", HTTPMethod.GET, HTHIndexPageController))
     .addRoute(Route("/", HTTPMethod.GET, HTHIndexPageController)));
 }
