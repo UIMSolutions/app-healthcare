@@ -3,8 +3,8 @@ module apps.healthcare.controllers.pages.index;
 import apps.healthcare;
 @safe:
 
-class DHTHIndexPageController : DPageController {
-  mixin(ControllerThis!("HTHIndexPageController"));
+class DIndexPageController : DPageController {
+  mixin(ControllerThis!("IndexPageController"));
 
   override void initialize(Json configSettings = Json(null)) {
     super.initialize(configSettings);
@@ -13,4 +13,4 @@ class DHTHIndexPageController : DPageController {
       .view(HTHIndexView(this));
   }
 }
-mixin(ControllerCalls!("HTHIndexPageController"));
+mixin(ControllerCalls!("IndexPageController"));
