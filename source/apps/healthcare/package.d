@@ -27,10 +27,11 @@ public {
 
 static this() {
   AppRegistry.register("apps.healthcare",  
-    App
-    .name("healthcareApp")
-    .rootPath("/apps/healthcare")
-    .importTranslations()
-    .addRoute(Route("", HTTPMethod.GET, HTHIndexPageController))
-    .addRoute(Route("/", HTTPMethod.GET, HTHIndexPageController)));
+    App("healthcareApp", "/apps/healthcare")
+      .importTranslations()
+      .addRoutes(
+        Route("", HTTPMethod.GET, IndexPageController),
+        Route("/", HTTPMethod.GET, IndexPageController)
+      )
+    );
 }
