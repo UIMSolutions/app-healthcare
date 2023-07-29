@@ -2,8 +2,10 @@ module apps.healthcare;
 
 mixin(ImportPhobos!());
 
-// Dub
-public import vibe.d;
+// External
+public {
+  import vibe.d;
+}
 
 // UIM
 public import uim.core;
@@ -26,12 +28,18 @@ public {
 }
 
 static this() {
-  AppRegistry.register("apps.healthcare",  
-    App("healthcareApp", "/apps/healthcare")
-      .importTranslations()
-      .addRoutes(
-        Route("", HTTPMethod.GET, IndexPageController),
-        Route("/", HTTPMethod.GET, IndexPageController)
-      )
+  auto myApp = App("healthcareApp", "apps/healthcare");
+
+  with(myApp) {
+    importTranslations;
+    addControllers([
+      "health.index": IndexPageController
+    ]);
+    addRoutes(
+      Route("", HTTPMethod.GET, controller("health.index")),
+      Route("/", HTTPMethod.GET, controller("health.index"))
     );
+  }
+
+  AppRegistry.register("apps.healthcare", myApp);
 }
